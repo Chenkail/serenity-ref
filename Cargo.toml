@@ -1,0 +1,12 @@
+[package]
+name = "crite-spranberry"
+version = "0.1.0"
+authors = ["chenkail <40770208+Chenkail@users.noreply.github.com>"]
+edition = "2018"
+
+
+[dependencies]
+async-std = "1.x"
+dotenv = "0.15"
+serenity = { version = "0.10", default-features = false, features = ["cache", "client", "gateway", "rustls_backend", "model", "framework", "standard_framework"] }
+tokio = { version = "1.x", features = ["macros", "rt-multi-thread"] }

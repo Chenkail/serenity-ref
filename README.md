@@ -1,2 +1,1 @@
-# serenity ref
- 
+# Serenity Reference
